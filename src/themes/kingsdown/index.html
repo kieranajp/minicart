@@ -6,6 +6,7 @@ var priceFormat = { format: true, currency: cart.settings("currency_code") };
 var totalFormat = { format: true, showCode: true };
 %>
 <form method="post" class="<% if (!hasItems) { %>minicart-empty<% } %>" action="<%= config.action %>" target="<%= config.target %>">
+    <h1>Shopping Cart</h1>
     <button type="button" class="minicart-closer">&times;</button>
     <ul>
         <% for (var i= 0, idx = i + 1, len = items.length; i < len; i++, idx++) { %>

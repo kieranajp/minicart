@@ -41,12 +41,19 @@
     width: 400px;
     max-height: 400px;
     margin-left: -200px;
-    padding: 10px;
+    padding: 10px 10px 50px;
     background: #ecf3f9;
     border: 1px solid #e0ebf4;
     box-shadow: 2px 2px 10px rgba(48, 102, 161, 0.5);
     font: 14px/normal MBEmpire-Light, Arial, sans-serif;
     color: rgb(57, 62, 66);
+}
+
+#PPMiniCart form h1 {
+    font-size: 16px;
+    margin: 0;
+    float: left;
+    font-family: Revival565BT-Roman, Georgia, serif;
 }
 
 #PPMiniCart form.minicart-empty {
@@ -82,7 +89,7 @@
 
 #PPMiniCart .minicart-item {
     clear: left;
-    padding: 6px 0;
+    padding: 8px 0;
     min-height: 25px;
 }
 
