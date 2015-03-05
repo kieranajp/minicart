@@ -42,9 +42,9 @@
     max-height: 400px;
     margin-left: -200px;
     padding: 10px;
-    background: #tktktk;
-    border: 1px solid #tktktk;
-    box-shadow: 2px 2px 10px rgba(#tktktk, 0.5);
+    background: #ecf3f9;
+    border: 1px solid #e0ebf4;
+    box-shadow: 2px 2px 10px rgba(48, 102, 161, 0.5);
     font: 14px/normal MBEmpire-Light, Arial, sans-serif;
     color: rgb(57, 62, 66);
 }
@@ -62,7 +62,7 @@
     margin: 5px 0 20px;
     padding: 10px;
     list-style-type: none;
-    background: #tktktk;
+    background: white;
 }
 
 #PPMiniCart .minicart-empty ul {
@@ -87,7 +87,7 @@
 }
 
 #PPMiniCart .minicart-item + .minicart-item {
-    border-top: 1px solid #tktktk;
+    border-top: 1px solid #e0ebf4;
 }
 
 #PPMiniCart .minicart-item a {
@@ -194,7 +194,7 @@
 
 #PPMiniCart .minicart-subtotal {
     text-tranform: uppercase;
-    color: #tktktk;
+    color: #003671;
 }
 
 #PPMiniCart .minicart-submit {
