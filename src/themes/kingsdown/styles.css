@@ -175,7 +175,7 @@
 #PPMiniCart .minicart-remove {
     width: 18px;
     height: 19px;
-    margin: 2px 0 0;
+    margin: 0;
     padding: 0;
     background: #b7b7b7;
     border: 1px solid #a3a3a3;
@@ -200,8 +200,9 @@
 }
 
 #PPMiniCart .minicart-subtotal {
-    text-tranform: uppercase;
+    text-transform: uppercase;
     color: #003671;
+    font-family: MBEmpire, Arial, sans-serif;
 }
 
 #PPMiniCart .minicart-submit {
