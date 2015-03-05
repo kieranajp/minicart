@@ -55,6 +55,9 @@ var totalFormat = { format: true, showCode: true };
             <div class="minicart-subtotal">
                 <%= config.strings.subtotal %> <%= cart.total(totalFormat) %>
             </div>
+            <div class="minicart-shipping">
+                Shipping: £<%= items[0].get("shipping") %>
+            </div>
             <button class="minicart-submit" type="submit" data-minicart-alt="<%= config.strings.buttonAlt %>"><%- config.strings.button %></button>
         <% } else { %>
             <p class="minicart-empty-text"><%= config.strings.empty %></p>
