@@ -205,7 +205,7 @@
     font-family: MBEmpire, Arial, sans-serif;
 }
 
-#PPMiniCart .minicart-submit {
+#PPMiniCart .btn-submit{
     position: relative;
     min-width: 153px;
     height: 33px;
@@ -228,7 +228,7 @@
     background: linear-gradient(to bottom, #fff6e9 0%,#ffaa00 100%);
 }
 
-#PPMiniCart .minicart-submit img {
+#PPMiniCart .btn-submit img {
     vertical-align: middle;
     padding: 4px 0 0 2px;
 }
@@ -252,7 +252,7 @@
         width: 16%;
     }
 
-    #PPMiniCart .minicart-submit {
+    #PPMiniCart .btn-submit {
         margin-top: 0;
         float: right;
     }
